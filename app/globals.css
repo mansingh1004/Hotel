@@ -1,26 +1,149 @@
 @import "tailwindcss";
 
+/*
+  Design system — Luxvoy luxury hotel brand.
+  Tailwind v4 CSS-first config: tokens live in @theme so they compile to
+  utilities (bg-primary, text-gold, font-display, shadow-soft, etc.).
+*/
+@theme {
+  /* Brand palette */
+  --color-primary: #0f4c81; /* Royal Blue */
+  --color-primary-light: #1c6bb0;
+  --color-primary-dark: #0a3557;
+  --color-gold: #d4af37; /* Secondary — Gold */
+  --color-gold-light: #e6c757;
+  --color-gold-dark: #b3902a;
+  --color-emerald: #0f9d63; /* Accent — success / CTAs */
+  --color-emerald-light: #16b978;
+  --color-emerald-dark: #0b7a4c;
+
+  /* Neutrals */
+  --color-ink: #1f2933; /* Primary text — dark gray */
+  --color-ink-soft: #52606d;
+  --color-muted: #7b8794;
+  --color-line: #e4e7eb;
+  --color-cloud: #f5f7fa; /* Light gray background */
+
+  /* Typography */
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Elevation */
+  --shadow-soft: 0 10px 40px -12px rgb(15 76 129 / 0.15);
+  --shadow-card: 0 4px 24px -8px rgb(31 41 51 / 0.12);
+  --shadow-gold: 0 8px 30px -8px rgb(212 175 55 / 0.35);
+
+  /* Motion */
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Container */
+  --breakpoint-3xl: 108rem;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1f2933;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  border-color: var(--color-line);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Utility: balanced headings */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Utility: glassmorphism surface */
+.glass {
+  background: color-mix(in srgb, white 70%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid color-mix(in srgb, white 40%, transparent);
+}
+
+.glass-dark {
+  background: color-mix(in srgb, #0a3557 45%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid color-mix(in srgb, white 12%, transparent);
+}
+
+/* Gradient text accent */
+.text-gradient-gold {
+  background: linear-gradient(120deg, #d4af37, #e6c757 40%, #b3902a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Section eyebrow label */
+.eyebrow {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cloud);
+}
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-primary) 40%, transparent);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Hide scrollbar for horizontal scrollers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Swiper overrides to match brand */
+.swiper-pagination-bullet {
+  background: var(--color-primary) !important;
+  opacity: 0.35 !important;
+}
+.swiper-pagination-bullet-active {
+  background: var(--color-gold) !important;
+  opacity: 1 !important;
+  width: 22px !important;
+  border-radius: 6px !important;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }
