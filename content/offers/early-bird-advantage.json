@@ -1,0 +1,10 @@
+{
+  "title": "Early Bird Advantage",
+  "order": 3,
+  "description": "Book 60 days ahead and save on suites at all city palace hotels.",
+  "discount": "30% OFF",
+  "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
+  "code": "EARLY30",
+  "validUntil": "2026-10-15",
+  "badge": "Limited"
+}

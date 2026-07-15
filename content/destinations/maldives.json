@@ -1,0 +1,8 @@
+{
+  "name": "Maldives",
+  "order": 2,
+  "country": "Indian Ocean",
+  "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=80",
+  "hotelsCount": 32,
+  "fromPrice": 690
+}

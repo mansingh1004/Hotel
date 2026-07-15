@@ -27,7 +27,7 @@ export function BookingSidebar({ hotel }: { hotel: Hotel }) {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [guests, setGuests] = useState(2);
-  const [roomId, setRoomId] = useState(hotel.rooms[0].id);
+  const [roomId, setRoomId] = useState(hotel.rooms[0]?.id ?? "");
   const [coupon, setCoupon] = useState("");
   const [applied, setApplied] = useState<{ code: string; rate: number } | null>(
     null
@@ -37,17 +37,20 @@ export function BookingSidebar({ hotel }: { hotel: Hotel }) {
 
   const today = "2026-07-13";
   const room = hotel.rooms.find((r) => r.id === roomId) ?? hotel.rooms[0];
+  // A hotel may have no rooms yet (e.g. just created in the CMS) — fall back
+  // to the hotel's nightly price so the widget still works.
+  const basePrice = room?.price ?? hotel.pricePerNight;
   const nights = nightsBetween(checkIn, checkOut);
 
   const totals = useMemo(() => {
     const n = Math.max(nights, 0);
-    const subtotal = room.price * n;
+    const subtotal = basePrice * n;
     const serviceFee = subtotal * SERVICE_FEE_RATE;
     const taxes = subtotal * TAX_RATE;
     const discount = applied ? subtotal * applied.rate : 0;
     const total = subtotal + serviceFee + taxes - discount;
     return { subtotal, serviceFee, taxes, discount, total };
-  }, [room.price, nights, applied]);
+  }, [basePrice, nights, applied]);
 
   const applyCoupon = () => {
     const code = coupon.trim().toUpperCase();
@@ -67,7 +70,7 @@ export function BookingSidebar({ hotel }: { hotel: Hotel }) {
       {/* Price header */}
       <div className="flex items-baseline justify-between">
         <p className="font-display text-3xl font-semibold text-primary">
-          {formatCurrency(room.price)}
+          {formatCurrency(basePrice)}
           <span className="text-base font-normal text-muted"> / night</span>
         </p>
         <span className="rounded-full bg-emerald/10 px-3 py-1 text-xs font-semibold text-emerald">
@@ -121,22 +124,24 @@ export function BookingSidebar({ hotel }: { hotel: Hotel }) {
             ))}
           </select>
         </label>
-        <label className="rounded-2xl border border-line px-3 py-2.5">
-          <span className="flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-wide text-muted">
-            <BedDouble size={13} /> Room
-          </span>
-          <select
-            value={roomId}
-            onChange={(e) => setRoomId(e.target.value)}
-            className="mt-1 w-full bg-transparent text-sm font-medium text-ink outline-none"
-          >
-            {hotel.rooms.map((r) => (
-              <option key={r.id} value={r.id}>
-                {r.type}
-              </option>
-            ))}
-          </select>
-        </label>
+        {hotel.rooms.length > 0 && (
+          <label className="rounded-2xl border border-line px-3 py-2.5">
+            <span className="flex items-center gap-1.5 text-[11px] font-medium uppercase tracking-wide text-muted">
+              <BedDouble size={13} /> Room
+            </span>
+            <select
+              value={roomId}
+              onChange={(e) => setRoomId(e.target.value)}
+              className="mt-1 w-full bg-transparent text-sm font-medium text-ink outline-none"
+            >
+              {hotel.rooms.map((r) => (
+                <option key={r.id} value={r.id}>
+                  {r.type}
+                </option>
+              ))}
+            </select>
+          </label>
+        )}
       </div>
 
       {/* Coupon */}
@@ -174,7 +179,7 @@ export function BookingSidebar({ hotel }: { hotel: Hotel }) {
       {/* Breakdown */}
       <div className="mt-5 space-y-2.5 border-t border-line pt-5 text-sm">
         <Row
-          label={`${formatCurrency(room.price)} × ${nights || 0} night${
+          label={`${formatCurrency(basePrice)} × ${nights || 0} night${
             nights === 1 ? "" : "s"
           }`}
           value={formatCurrency(totals.subtotal)}

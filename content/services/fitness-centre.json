@@ -1,0 +1,13 @@
+{
+  "title": "Fitness Centre",
+  "order": 4,
+  "description": "State-of-the-art gyms with personal trainers, studios, and recovery suites.",
+  "icon": "gym",
+  "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80",
+  "features": [
+    "Technogym equipment",
+    "Personal training",
+    "Group studios",
+    "Recovery & sauna"
+  ]
+}

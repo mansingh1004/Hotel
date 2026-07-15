@@ -1,0 +1,52 @@
+{
+  "name": "Himalayan Serenity Resort",
+  "order": 100,
+  "tagline": "Experience the Beauty of the Himalayas",
+  "category": "Beach Resort",
+  "city": "Nepal",
+  "country": "nepal",
+  "coordinates": {
+    "lat": 2,
+    "lng": 3
+  },
+  "rating": 4,
+  "reviewsCount": 111,
+  "pricePerNight": 111111,
+  "currency": "INR",
+  "starRating": "5",
+  "featured": false,
+  "description": "Nestled beside the serene lakes and surrounded by the majestic Himalayas, Himalayan Serenity Resort offers luxurious rooms, warm Nepali hospitality, and breathtaking mountain views for a truly unforgettable stay.",
+  "longDescription": "Nestled beside the serene lakes and surrounded by the majestic Himalayas, Himalayan Serenity Resort offers luxurious rooms, warm Nepali hospitality, and breathtaking mountain views for a truly unforgettable stay.",
+  "amenities": [
+    "wifi",
+    "pool",
+    "spa",
+    "restaurant",
+    "concierge",
+    "petFriendly",
+    "roomService"
+  ],
+  "images": [
+    "https://images.openai.com/static-rsc-4/89Ercl90WGE3QNgEaQqz_jUvu3nTYIH-1sMU_P_wQn_hqZF3ABGv69_ph6NGaHw6woMneJlZMpKbX_gESg1xcq11JEDAnAPsLLBUvrkVzzHwhhgqeIJ4hGQMnJUusRacQk0qt6QA_zM1Kq03K7o7Jz8QJ_h5VTeiuO-C3EbpDj2N1yjL-ftii6CvQYEx-WvD?purpose=fullsize"
+  ],
+  "rooms": [
+    {
+      "type": "Suite",
+      "price": 1234,
+      "size": 123,
+      "capacity": 3,
+      "beds": "2",
+      "image": "https://images.openai.com/static-rsc-4/89Ercl90WGE3QNgEaQqz_jUvu3nTYIH-1sMU_P_wQn_hqZF3ABGv69_ph6NGaHw6woMneJlZMpKbX_gESg1xcq11JEDAnAPsLLBUvrkVzzHwhhgqeIJ4hGQMnJUusRacQk0qt6QA_zM1Kq03K7o7Jz8QJ_h5VTeiuO-C3EbpDj2N1yjL-ftii6CvQYEx-WvD?purpose=fullsize",
+      "gallery": [
+        "https://images.openai.com/static-rsc-4/9t0ffdAUcy0BqMZLFUzcpE_KE9UxpROafOW01tJamFVpVmVkb6GMNjtfYM5rPljBEruhGdIgto90HfZ_fWW1snZCYPo_jWr9-FbbO8Ok3FBcvLIRmXr9H2tXbiH00Wuougx6PKOYyKdCqqcA2gCLI0D49oVxrFZ3iyp6mYgfJYc7dZ2PtXcE_ygofBhLWFeT?purpose=fullsize"
+      ],
+      "features": [
+        "5-Star Luxury Hotel 🏔️ Mountain View 🌅 Lake View 🏨 Modern Architecture 🌿 Beautiful Garden 🛎️ 24/7 Front Desk 🔒 CCTV Security 🧹 Daily Housekeeping"
+      ],
+      "description": "Experience world-class comfort and exceptional hospitality with a wide range of modern facilities designed for both leisure and business travelers. Our hotel offers elegantly furnished rooms with breathtaking mountain views, complimentary high-speed Wi-Fi, air conditioning, Smart TVs, private balconies, and luxurious bathrooms."
+    }
+  ],
+  "reviews": [
+    {}
+  ]
+}

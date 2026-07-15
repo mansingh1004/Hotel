@@ -1,0 +1,55 @@
+{
+  "name": "Taj Mahal",
+  "order": 100,
+  "tagline": "Experience Luxury Beyond Expectations",
+  "category": "Resort",
+  "city": "Pune",
+  "country": "india",
+  "coordinates": {
+    "lat": 4,
+    "lng": 8
+  },
+  "rating": 4.8,
+  "reviewsCount": 444,
+  "pricePerNight": 1000,
+  "currency": "INR",
+  "starRating": "5",
+  "featured": true,
+  "description": "Your Gateway to Unforgettable Adventures\nRelax Today, Cherish Forever",
+  "longDescription": "Work Smart. Stay Comfortable.\nWhere Business Meets Comfort\nYour Trusted Business Stay\nComfort Designed for Professionals\nStay Connected, Stay Productive",
+  "amenities": [
+    "wifi",
+    "pool",
+    "spa",
+    "gym",
+    "restaurant",
+    "bar",
+    "parking",
+    "concierge",
+    "beach",
+    "roomService",
+    "airConditioning"
+  ],
+  "images": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOOqNzCswWS6GJxxHlA8tkIRJ2dViAyO4IkQ-fvgswohKof_-FEcWyi2Mn6JXG_RRSyC7pmps8ZoHzn0AT3A-hq1Sl9iCgbLghhjgZlDrIPTq5Z6Qa_1Lfztn01YeEf3wUBI6DBI_VdYo=w252-h148-k-no"
+  ],
+  "rooms": [
+    {
+      "name": "12",
+      "type": "Deluxe",
+      "price": 1000,
+      "size": 12,
+      "capacity": 3,
+      "beds": "3",
+      "image": "https://lh4.googleusercontent.com/proxy/4tP8biMqflO8voJvLtTbLhKr06ltel9vqm5lu-pCNcm05S-5vQFq5EwvtKQ9yduBP9dzJrFBhBNNa3Yc9ZeTTbjf7t52tltXOfyE6QwVkHf9ZTw_MH3M7IJdszyG7fk79RnYys2mhCriM-ToPGbSCSB-Rf3VKSY=w252-h168-k-no",
+      "gallery": [
+        "https://lh4.googleusercontent.com/proxy/4tP8biMqflO8voJvLtTbLhKr06ltel9vqm5lu-pCNcm05S-5vQFq5EwvtKQ9yduBP9dzJrFBhBNNa3Yc9ZeTTbjf7t52tltXOfyE6QwVkHf9ZTw_MH3M7IJdszyG7fk79RnYys2mhCriM-ToPGbSCSB-Rf3VKSY=w252-h168-k-no"
+      ],
+      "features": [
+        "tay. Relax. Explore. Your Journey, Our Hospitality More Than a Stay Comfort Redefined Every Stay Tells a Story"
+      ],
+      "description": "tay. Relax. Explore.\nYour Journey, Our Hospitality\nMore Than a Stay\nComfort Redefined\nEvery Stay Tells a Story"
+    }
+  ],
+  "reviews": []
+}

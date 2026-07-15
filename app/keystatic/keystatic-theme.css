@@ -1,0 +1,44 @@
+/*
+ * On-brand accent theme for the Keystatic admin (Luxvoy).
+ *
+ * Keystatic's UI (Keystar) is themed entirely through --kui-color-* CSS
+ * custom properties. Its own values are applied via runtime-generated
+ * classes, so we override the tokens on every element inside the
+ * .luxvoy-keystatic wrapper (universal selector + !important) to reliably
+ * win the cascade regardless of where Keystar declared them.
+ *
+ * NOTE: these are Keystatic-internal tokens, not a public API — a future
+ * Keystatic/Keystar upgrade could rename them and require a tweak here.
+ * Scoped to the wrapper so nothing affects the public site.
+ */
+
+.luxvoy-keystatic,
+.luxvoy-keystatic * {
+  /* Primary accent → Luxvoy royal blue (buttons, active states, links) */
+  --kui-color-background-accent-emphasis: #0f4c81 !important;
+  --kui-color-border-emphasis: #0f4c81 !important;
+  --kui-color-background-accent: rgba(15, 76, 129, 0.1) !important;
+
+  /* Focus ring → Luxvoy gold, for a premium pop */
+  --kui-color-alias-focus-ring: #d4af37 !important;
+
+  /* Selected / hovered navigation — translucent blue works in light & dark */
+  --kui-color-alias-background-selected: rgba(15, 76, 129, 0.12) !important;
+  --kui-color-alias-background-selected-hovered: rgba(15, 76, 129, 0.18) !important;
+  --kui-color-alias-foreground-selected: #0f4c81 !important;
+  --kui-color-alias-border-selected: #0f4c81 !important;
+}
+
+/* Gentle branded wash behind the whole admin so it reads less flat. */
+.luxvoy-keystatic {
+  background-image: radial-gradient(
+      1200px 480px at 100% -10%,
+      rgba(212, 175, 55, 0.08),
+      transparent 60%
+    ),
+    radial-gradient(
+      1000px 420px at -10% 0%,
+      rgba(15, 76, 129, 0.08),
+      transparent 55%
+    );
+}

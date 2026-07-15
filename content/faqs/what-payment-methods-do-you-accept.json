@@ -1,0 +1,6 @@
+{
+  "question": "What payment methods do you accept?",
+  "order": 3,
+  "category": "Payment",
+  "answer": "We accept all major credit and debit cards, Apple Pay, Google Pay, and bank transfer for select reservations. Your payment details are encrypted and never stored on our servers."
+}

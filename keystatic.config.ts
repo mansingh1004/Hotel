@@ -1,4 +1,5 @@
 import { config, fields, collection, singleton } from "@keystatic/core";
+import { BrandMark } from "@/components/keystatic/BrandMark";
 
 /* ------------------------------------------------------------------ *
  * Shared field builders
@@ -60,7 +61,7 @@ const ROOM_TYPE_OPTIONS = [
 export default config({
   storage: { kind: "local" },
   ui: {
-    brand: { name: "Luxvoy CMS" },
+    brand: { name: "Luxvoy CMS", mark: BrandMark },
     navigation: {
       Properties: ["hotels", "destinations"],
       Marketing: ["offers", "testimonials", "services"],
@@ -73,6 +74,7 @@ export default config({
       slugField: "name",
       path: "content/hotels/*",
       format: { data: "json" },
+      previewUrl: "/hotels/{slug}",
       columns: ["name", "order"],
       schema: {
         name: fields.slug({
@@ -83,10 +85,14 @@ export default config({
           },
         }),
         order: orderField,
-        tagline: fields.text({ label: "Tagline" }),
+        tagline: fields.text({
+          label: "Tagline",
+          validation: { isRequired: true },
+        }),
         category: fields.text({
           label: "Category",
           description: "e.g. Beach Resort, City Palace, Boutique Retreat.",
+          validation: { isRequired: true },
         }),
         city: fields.text({ label: "City", validation: { isRequired: true } }),
         country: fields.text({
@@ -120,10 +126,15 @@ export default config({
           label: "Featured on homepage",
           defaultValue: false,
         }),
-        description: fields.text({ label: "Short description", multiline: true }),
+        description: fields.text({
+          label: "Short description",
+          multiline: true,
+          validation: { isRequired: true },
+        }),
         longDescription: fields.text({
           label: "Long description",
           multiline: true,
+          validation: { isRequired: true },
         }),
         amenities: fields.multiselect({
           label: "Amenities",
@@ -132,17 +143,35 @@ export default config({
         images: urlArray("Gallery images"),
         rooms: fields.array(
           fields.object({
-            name: fields.text({ label: "Room name" }),
+            name: fields.text({
+              label: "Room name",
+              validation: { isRequired: true },
+            }),
             type: fields.select({
               label: "Type",
               options: [...ROOM_TYPE_OPTIONS],
               defaultValue: "Deluxe",
             }),
-            price: fields.number({ label: "Price per night" }),
-            size: fields.number({ label: "Size (m²)" }),
-            capacity: fields.number({ label: "Capacity (guests)" }),
-            beds: fields.text({ label: "Beds" }),
-            image: urlField("Main image URL"),
+            price: fields.number({
+              label: "Price per night",
+              validation: { isRequired: true },
+            }),
+            size: fields.number({
+              label: "Size (m²)",
+              validation: { isRequired: true },
+            }),
+            capacity: fields.number({
+              label: "Capacity (guests)",
+              validation: { isRequired: true },
+            }),
+            beds: fields.text({
+              label: "Beds",
+              validation: { isRequired: true },
+            }),
+            image: fields.text({
+              label: "Main image URL",
+              validation: { isRequired: true },
+            }),
             gallery: urlArray("Room gallery"),
             features: textArray("Features", "Feature"),
             description: fields.text({ label: "Description", multiline: true }),
@@ -151,13 +180,35 @@ export default config({
         ),
         reviews: fields.array(
           fields.object({
-            author: fields.text({ label: "Author" }),
-            avatar: urlField("Avatar URL"),
-            rating: fields.number({ label: "Rating" }),
-            date: fields.date({ label: "Date" }),
-            title: fields.text({ label: "Title" }),
-            body: fields.text({ label: "Body", multiline: true }),
-            country: fields.text({ label: "Country" }),
+            author: fields.text({
+              label: "Author",
+              validation: { isRequired: true },
+            }),
+            avatar: fields.text({
+              label: "Avatar URL",
+              validation: { isRequired: true },
+            }),
+            rating: fields.number({
+              label: "Rating (1–5)",
+              validation: { isRequired: true, min: 1, max: 5 },
+            }),
+            date: fields.date({
+              label: "Date",
+              validation: { isRequired: true },
+            }),
+            title: fields.text({
+              label: "Title",
+              validation: { isRequired: true },
+            }),
+            body: fields.text({
+              label: "Body",
+              multiline: true,
+              validation: { isRequired: true },
+            }),
+            country: fields.text({
+              label: "Country",
+              validation: { isRequired: true },
+            }),
           }),
           {
             label: "Reviews",
@@ -259,10 +310,18 @@ export default config({
       format: { data: "json" },
       columns: ["title", "order"],
       schema: {
-        title: fields.slug({ name: { label: "Image title" } }),
+        title: fields.slug({
+          name: { label: "Image title", validation: { isRequired: true } },
+        }),
         order: orderField,
-        src: urlField("Image URL"),
-        category: fields.text({ label: "Category" }),
+        src: fields.text({
+          label: "Image URL",
+          validation: { isRequired: true },
+        }),
+        category: fields.text({
+          label: "Category",
+          validation: { isRequired: true },
+        }),
         span: fields.select({
           label: "Grid span",
           options: [

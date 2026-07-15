@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
-import { ScrollToTop } from "@/components/ui/ScrollToTop";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -63,12 +60,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white text-ink">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <ScrollToTop />
-      </body>
+      <body className="min-h-full bg-white text-ink">{children}</body>
     </html>
   );
 }

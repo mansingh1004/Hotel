@@ -1,0 +1,165 @@
+{
+  "name": "Burj Al-Noor",
+  "order": 4,
+  "tagline": "A vertical palace in the heart of Downtown Dubai",
+  "category": "Urban Icon",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "coordinates": {
+    "lat": 25.1972,
+    "lng": 55.2744
+  },
+  "rating": 4.7,
+  "reviewsCount": 2110,
+  "pricePerNight": 810,
+  "currency": "INR",
+  "starRating": "5",
+  "featured": false,
+  "description": "Sky-high suites, a mirror-edge infinity pool, and views across the world's tallest skyline.",
+  "longDescription": "Rising above the Dubai Fountain, Burj Al-Noor is a statement of modern opulence. Floor-to-ceiling glass frames the Burj Khalifa from every suite, the 60th-floor infinity pool appears to spill into the city, and nine restaurants span the globe's finest cuisines.",
+  "amenities": [
+    "wifi",
+    "pool",
+    "spa",
+    "gym",
+    "restaurant",
+    "bar",
+    "parking",
+    "airport",
+    "concierge",
+    "businessCenter",
+    "roomService",
+    "airConditioning"
+  ],
+  "images": [
+    "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1517840901100-8179e982acb7?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "rooms": [
+    {
+      "name": "Deluxe King Room",
+      "type": "Deluxe",
+      "price": 320,
+      "size": 42,
+      "capacity": 2,
+      "beds": "1 King Bed",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "City view",
+        "Rain shower",
+        "Smart TV",
+        "Nespresso machine"
+      ],
+      "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+    },
+    {
+      "name": "Executive Suite",
+      "type": "Executive",
+      "price": 540,
+      "size": 68,
+      "capacity": 3,
+      "beds": "1 King + Sofa Bed",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Lounge access",
+        "Separate living area",
+        "Bathtub",
+        "Work desk"
+      ],
+      "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+    },
+    {
+      "name": "Panorama Suite",
+      "type": "Suite",
+      "price": 780,
+      "size": 95,
+      "capacity": 4,
+      "beds": "1 King + 2 Twin",
+      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Panoramic view",
+        "Private balcony",
+        "Walk-in closet",
+        "Butler service"
+      ],
+      "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+    },
+    {
+      "name": "Presidential Villa",
+      "type": "Presidential",
+      "price": 1450,
+      "size": 180,
+      "capacity": 6,
+      "beds": "2 King + Living Room",
+      "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Private pool",
+        "Dining room",
+        "24/7 butler",
+        "Panoramic terrace"
+      ],
+      "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Isabella Moretti",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+      "rating": 5,
+      "date": "2026-05-14",
+      "title": "An unforgettable escape",
+      "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+      "country": "Italy"
+    },
+    {
+      "author": "James Whitfield",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+      "rating": 5,
+      "date": "2026-04-28",
+      "title": "Worth every penny",
+      "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+      "country": "United Kingdom"
+    },
+    {
+      "author": "Amara Okafor",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+      "rating": 4,
+      "date": "2026-04-10",
+      "title": "Beautiful property",
+      "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+      "country": "Nigeria"
+    },
+    {
+      "author": "Lucas Bergström",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+      "rating": 5,
+      "date": "2026-03-22",
+      "title": "Second to none",
+      "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+      "country": "Sweden"
+    }
+  ]
+}

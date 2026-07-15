@@ -1,0 +1,50 @@
+{
+  "stats": [
+    {
+      "value": 320,
+      "suffix": "+",
+      "label": "Luxury Properties"
+    },
+    {
+      "value": 68,
+      "label": "Countries"
+    },
+    {
+      "value": 250,
+      "suffix": "K",
+      "label": "Happy Guests"
+    },
+    {
+      "value": 4.9,
+      "suffix": "/5",
+      "label": "Average Rating"
+    },
+    {
+      "value": 123,
+      "suffix": "Ho",
+      "label": "Good hotel"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2026",
+      "title": "World's Best Luxury Travel Platform",
+      "org": "Condé Nast Traveller"
+    },
+    {
+      "year": "2025",
+      "title": "Excellence in Hospitality",
+      "org": "Travel + Leisure"
+    },
+    {
+      "year": "2025",
+      "title": "Best Boutique Collection",
+      "org": "Forbes Travel Guide"
+    },
+    {
+      "year": "2024",
+      "title": "Innovation in Guest Experience",
+      "org": "World Travel Awards"
+    }
+  ]
+}

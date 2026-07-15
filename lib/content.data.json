@@ -1,0 +1,1917 @@
+{
+  "hotels": [
+    {
+      "slug": "alpenhof-zermatt",
+      "name": "Alpenhof Zermatt",
+      "order": 6,
+      "tagline": "A slope-side chalet beneath the Matterhorn",
+      "category": "Alpine Lodge",
+      "city": "Zermatt",
+      "country": "Switzerland",
+      "coordinates": {
+        "lat": 46.0207,
+        "lng": 7.7491
+      },
+      "rating": 4.7,
+      "reviewsCount": 489,
+      "pricePerNight": 560,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": false,
+      "description": "Ski-in ski-out luxury with a glass-walled spa framing the Matterhorn.",
+      "longDescription": "Alpenhof pairs Alpine tradition with quiet modern luxury. Warm timber suites open to Matterhorn views, the subterranean spa features a fireside pool, and the restaurant reimagines Swiss classics with produce from the valley. In summer, the trails begin at the door.",
+      "amenities": [
+        "wifi",
+        "spa",
+        "gym",
+        "restaurant",
+        "bar",
+        "parking",
+        "concierge",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "azure-palms-maldives",
+      "name": "The Azure Palms",
+      "order": 1,
+      "tagline": "Overwater villas above a private lagoon",
+      "category": "Beach Resort",
+      "city": "Malé",
+      "country": "Maldives",
+      "coordinates": {
+        "lat": 3.2028,
+        "lng": 73.2207
+      },
+      "rating": 4.9,
+      "reviewsCount": 842,
+      "pricePerNight": 890,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": true,
+      "description": "An intimate overwater sanctuary where glass floors reveal a living coral garden below.",
+      "longDescription": "Set on a private atoll, The Azure Palms is a masterclass in barefoot luxury. Each overwater villa opens onto its own sun deck and infinity plunge pool, with steps descending directly into the turquoise lagoon. Days drift by with sunrise yoga, private reef snorkelling, and champagne sundowners on a sandbank reachable only by dhoni.",
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "restaurant",
+        "bar",
+        "beach",
+        "airport",
+        "concierge",
+        "roomService"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "burj-alnoor-dubai",
+      "name": "Burj Al-Noor",
+      "order": 4,
+      "tagline": "A vertical palace in the heart of Downtown Dubai",
+      "category": "Urban Icon",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "coordinates": {
+        "lat": 25.1972,
+        "lng": 55.2744
+      },
+      "rating": 4.7,
+      "reviewsCount": 2110,
+      "pricePerNight": 810,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": false,
+      "description": "Sky-high suites, a mirror-edge infinity pool, and views across the world's tallest skyline.",
+      "longDescription": "Rising above the Dubai Fountain, Burj Al-Noor is a statement of modern opulence. Floor-to-ceiling glass frames the Burj Khalifa from every suite, the 60th-floor infinity pool appears to spill into the city, and nine restaurants span the globe's finest cuisines.",
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "gym",
+        "restaurant",
+        "bar",
+        "parking",
+        "airport",
+        "concierge",
+        "businessCenter",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1517840901100-8179e982acb7?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "himalayan-serenity-resort",
+      "name": "Himalayan Serenity Resort",
+      "order": 100,
+      "tagline": "Experience the Beauty of the Himalayas",
+      "category": "Beach Resort",
+      "city": "Nepal",
+      "country": "nepal",
+      "coordinates": {
+        "lat": 2,
+        "lng": 3
+      },
+      "rating": 4,
+      "reviewsCount": 111,
+      "pricePerNight": 111111,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": false,
+      "description": "Nestled beside the serene lakes and surrounded by the majestic Himalayas, Himalayan Serenity Resort offers luxurious rooms, warm Nepali hospitality, and breathtaking mountain views for a truly unforgettable stay.",
+      "longDescription": "Nestled beside the serene lakes and surrounded by the majestic Himalayas, Himalayan Serenity Resort offers luxurious rooms, warm Nepali hospitality, and breathtaking mountain views for a truly unforgettable stay.",
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "restaurant",
+        "concierge",
+        "petFriendly",
+        "roomService"
+      ],
+      "images": [
+        "https://images.openai.com/static-rsc-4/89Ercl90WGE3QNgEaQqz_jUvu3nTYIH-1sMU_P_wQn_hqZF3ABGv69_ph6NGaHw6woMneJlZMpKbX_gESg1xcq11JEDAnAPsLLBUvrkVzzHwhhgqeIJ4hGQMnJUusRacQk0qt6QA_zM1Kq03K7o7Jz8QJ_h5VTeiuO-C3EbpDj2N1yjL-ftii6CvQYEx-WvD?purpose=fullsize"
+      ],
+      "rooms": [
+        {
+          "type": "Suite",
+          "price": 1234,
+          "size": 123,
+          "capacity": 3,
+          "beds": "2",
+          "image": "https://images.openai.com/static-rsc-4/89Ercl90WGE3QNgEaQqz_jUvu3nTYIH-1sMU_P_wQn_hqZF3ABGv69_ph6NGaHw6woMneJlZMpKbX_gESg1xcq11JEDAnAPsLLBUvrkVzzHwhhgqeIJ4hGQMnJUusRacQk0qt6QA_zM1Kq03K7o7Jz8QJ_h5VTeiuO-C3EbpDj2N1yjL-ftii6CvQYEx-WvD?purpose=fullsize",
+          "gallery": [
+            "https://images.openai.com/static-rsc-4/9t0ffdAUcy0BqMZLFUzcpE_KE9UxpROafOW01tJamFVpVmVkb6GMNjtfYM5rPljBEruhGdIgto90HfZ_fWW1snZCYPo_jWr9-FbbO8Ok3FBcvLIRmXr9H2tXbiH00Wuougx6PKOYyKdCqqcA2gCLI0D49oVxrFZ3iyp6mYgfJYc7dZ2PtXcE_ygofBhLWFeT?purpose=fullsize"
+          ],
+          "features": [
+            "5-Star Luxury Hotel 🏔️ Mountain View 🌅 Lake View 🏨 Modern Architecture 🌿 Beautiful Garden 🛎️ 24/7 Front Desk 🔒 CCTV Security 🧹 Daily Housekeeping"
+          ],
+          "description": "Experience world-class comfort and exceptional hospitality with a wide range of modern facilities designed for both leisure and business travelers. Our hotel offers elegantly furnished rooms with breathtaking mountain views, complimentary high-speed Wi-Fi, air conditioning, Smart TVs, private balconies, and luxurious bathrooms."
+        }
+      ],
+      "reviews": [
+        {}
+      ]
+    },
+    {
+      "slug": "kaya-highlands-bali",
+      "name": "Kaya Highlands",
+      "order": 5,
+      "tagline": "Jungle-canopy villas above the Ayung River",
+      "category": "Wellness Retreat",
+      "city": "Ubud",
+      "country": "Indonesia",
+      "coordinates": {
+        "lat": -8.5069,
+        "lng": 115.2625
+      },
+      "rating": 4.8,
+      "reviewsCount": 534,
+      "pricePerNight": 430,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": false,
+      "description": "A wellness sanctuary of teak villas, rice-terrace views, and river-fed infinity pools.",
+      "longDescription": "Hidden in the emerald hills of Ubud, Kaya Highlands is devoted to restoration. Handcrafted villas float above the jungle canopy, the spa draws on Balinese healing rituals, and each morning begins with sound baths and organic breakfasts harvested from the estate garden.",
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "restaurant",
+        "bar",
+        "petFriendly",
+        "concierge",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "sakura-tokyo",
+      "name": "Sakura Tokyo",
+      "order": 8,
+      "tagline": "Serene minimalism in the sky above Ginza",
+      "category": "City Palace",
+      "city": "Tokyo",
+      "country": "Japan",
+      "coordinates": {
+        "lat": 35.6717,
+        "lng": 139.765
+      },
+      "rating": 4.8,
+      "reviewsCount": 923,
+      "pricePerNight": 610,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": false,
+      "description": "Zen-inspired suites, an omakase counter, and a cedar onsen high above Ginza.",
+      "longDescription": "Sakura Tokyo is an oasis of calm above the city's most refined district. Rooms follow the principles of ma — negative space, natural cedar, and floor-to-ceiling views of the skyline. The rooftop onsen and eight-seat omakase counter are experiences reserved for the few.",
+      "amenities": [
+        "wifi",
+        "spa",
+        "gym",
+        "restaurant",
+        "bar",
+        "concierge",
+        "businessCenter",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "seraphine-santorini",
+      "name": "Séraphine Santorini",
+      "order": 3,
+      "tagline": "Caldera-edge suites carved into the cliffs",
+      "category": "Boutique Retreat",
+      "city": "Oia",
+      "country": "Greece",
+      "coordinates": {
+        "lat": 36.4618,
+        "lng": 25.3753
+      },
+      "rating": 4.9,
+      "reviewsCount": 675,
+      "pricePerNight": 640,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": true,
+      "description": "Whitewashed cave suites cascading toward the Aegean, each with a private plunge pool.",
+      "longDescription": "Séraphine is Santorini distilled: cool cycladic architecture, infinity pools that melt into the caldera, and sunsets that turn the sky molten gold. The wine cellar showcases indigenous Assyrtiko, and the terrace restaurant serves modern Greek tasting menus at the water's edge of the sky.",
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "restaurant",
+        "bar",
+        "beach",
+        "concierge",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "taj-mahal",
+      "name": "Taj Mahal",
+      "order": 100,
+      "tagline": "Experience Luxury Beyond Expectations",
+      "category": "Resort",
+      "city": "Pune",
+      "country": "india",
+      "coordinates": {
+        "lat": 4,
+        "lng": 8
+      },
+      "rating": 4.8,
+      "reviewsCount": 444,
+      "pricePerNight": 1000,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": true,
+      "description": "Your Gateway to Unforgettable Adventures\nRelax Today, Cherish Forever",
+      "longDescription": "Work Smart. Stay Comfortable.\nWhere Business Meets Comfort\nYour Trusted Business Stay\nComfort Designed for Professionals\nStay Connected, Stay Productive",
+      "amenities": [
+        "wifi",
+        "pool",
+        "spa",
+        "gym",
+        "restaurant",
+        "bar",
+        "parking",
+        "concierge",
+        "beach",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOOqNzCswWS6GJxxHlA8tkIRJ2dViAyO4IkQ-fvgswohKof_-FEcWyi2Mn6JXG_RRSyC7pmps8ZoHzn0AT3A-hq1Sl9iCgbLghhjgZlDrIPTq5Z6Qa_1Lfztn01YeEf3wUBI6DBI_VdYo=w252-h148-k-no"
+      ],
+      "rooms": [
+        {
+          "name": "12",
+          "type": "Deluxe",
+          "price": 1000,
+          "size": 12,
+          "capacity": 3,
+          "beds": "3",
+          "image": "https://lh4.googleusercontent.com/proxy/4tP8biMqflO8voJvLtTbLhKr06ltel9vqm5lu-pCNcm05S-5vQFq5EwvtKQ9yduBP9dzJrFBhBNNa3Yc9ZeTTbjf7t52tltXOfyE6QwVkHf9ZTw_MH3M7IJdszyG7fk79RnYys2mhCriM-ToPGbSCSB-Rf3VKSY=w252-h168-k-no",
+          "gallery": [
+            "https://lh4.googleusercontent.com/proxy/4tP8biMqflO8voJvLtTbLhKr06ltel9vqm5lu-pCNcm05S-5vQFq5EwvtKQ9yduBP9dzJrFBhBNNa3Yc9ZeTTbjf7t52tltXOfyE6QwVkHf9ZTw_MH3M7IJdszyG7fk79RnYys2mhCriM-ToPGbSCSB-Rf3VKSY=w252-h168-k-no"
+          ],
+          "features": [
+            "tay. Relax. Explore. Your Journey, Our Hospitality More Than a Stay Comfort Redefined Every Stay Tells a Story"
+          ],
+          "description": "tay. Relax. Explore.\nYour Journey, Our Hospitality\nMore Than a Stay\nComfort Redefined\nEvery Stay Tells a Story"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "slug": "the-grand-meridian-paris",
+      "name": "The Grand Méridian",
+      "order": 2,
+      "tagline": "Belle Époque grandeur off the Champs-Élysées",
+      "category": "City Palace",
+      "city": "Paris",
+      "country": "France",
+      "coordinates": {
+        "lat": 48.8698,
+        "lng": 2.3078
+      },
+      "rating": 4.8,
+      "reviewsCount": 1290,
+      "pricePerNight": 720,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": true,
+      "description": "A landmark palace hotel pairing Haussmanian elegance with contemporary Parisian flair.",
+      "longDescription": "Behind a listed 19th-century façade, The Grand Méridian unfolds in a sequence of chandelier-lit salons, a marble winter garden, and a rooftop with uninterrupted views of the Eiffel Tower. The Michelin-starred restaurant and hidden cocktail bar have become a rendezvous for Paris society.",
+      "amenities": [
+        "wifi",
+        "spa",
+        "gym",
+        "restaurant",
+        "bar",
+        "parking",
+        "concierge",
+        "roomService",
+        "businessCenter",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    },
+    {
+      "slug": "the-manhattan-loft",
+      "name": "The Manhattan Loft",
+      "order": 7,
+      "tagline": "An art-filled tower above Central Park",
+      "category": "Urban Icon",
+      "city": "New York",
+      "country": "United States",
+      "coordinates": {
+        "lat": 40.7648,
+        "lng": -73.9808
+      },
+      "rating": 4.6,
+      "reviewsCount": 1785,
+      "pricePerNight": 690,
+      "currency": "INR",
+      "starRating": "5",
+      "featured": false,
+      "description": "Gallery-inspired suites, a jazz-era bar, and a rooftop overlooking Central Park.",
+      "longDescription": "The Manhattan Loft turns a landmark tower into a living gallery, with rotating works from emerging artists in every suite. A speakeasy-style bar channels the jazz age, while the glass rooftop lounge serves the park's finest sunset panorama over seasonal cocktails.",
+      "amenities": [
+        "wifi",
+        "gym",
+        "restaurant",
+        "bar",
+        "parking",
+        "concierge",
+        "businessCenter",
+        "roomService",
+        "airConditioning"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "type": "Deluxe",
+          "price": 320,
+          "size": 42,
+          "capacity": 2,
+          "beds": "1 King Bed",
+          "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "City view",
+            "Rain shower",
+            "Smart TV",
+            "Nespresso machine"
+          ],
+          "description": "The Deluxe King Room blends refined comfort with 42m² of thoughtfully designed space, ideal for up to 2 guests."
+        },
+        {
+          "name": "Executive Suite",
+          "type": "Executive",
+          "price": 540,
+          "size": 68,
+          "capacity": 3,
+          "beds": "1 King + Sofa Bed",
+          "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Lounge access",
+            "Separate living area",
+            "Bathtub",
+            "Work desk"
+          ],
+          "description": "The Executive Suite blends refined comfort with 68m² of thoughtfully designed space, ideal for up to 3 guests."
+        },
+        {
+          "name": "Panorama Suite",
+          "type": "Suite",
+          "price": 780,
+          "size": 95,
+          "capacity": 4,
+          "beds": "1 King + 2 Twin",
+          "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Panoramic view",
+            "Private balcony",
+            "Walk-in closet",
+            "Butler service"
+          ],
+          "description": "The Panorama Suite blends refined comfort with 95m² of thoughtfully designed space, ideal for up to 4 guests."
+        },
+        {
+          "name": "Presidential Villa",
+          "type": "Presidential",
+          "price": 1450,
+          "size": 180,
+          "capacity": 6,
+          "beds": "2 King + Living Room",
+          "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+          "gallery": [
+            "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+          ],
+          "features": [
+            "Private pool",
+            "Dining room",
+            "24/7 butler",
+            "Panoramic terrace"
+          ],
+          "description": "The Presidential Villa blends refined comfort with 180m² of thoughtfully designed space, ideal for up to 6 guests."
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Isabella Moretti",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-05-14",
+          "title": "An unforgettable escape",
+          "body": "From the moment we arrived, every detail was flawless. The staff anticipated our every need and the suite was pure indulgence.",
+          "country": "Italy"
+        },
+        {
+          "author": "James Whitfield",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-04-28",
+          "title": "Worth every penny",
+          "body": "The spa alone is worth the trip. Impeccable service, breathtaking views, and dining that rivals any Michelin-starred restaurant.",
+          "country": "United Kingdom"
+        },
+        {
+          "author": "Amara Okafor",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=128&q=80",
+          "rating": 4,
+          "date": "2026-04-10",
+          "title": "Beautiful property",
+          "body": "Stunning architecture and a serene atmosphere. Breakfast could have more variety, but everything else exceeded expectations.",
+          "country": "Nigeria"
+        },
+        {
+          "author": "Lucas Bergström",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=128&q=80",
+          "rating": 5,
+          "date": "2026-03-22",
+          "title": "Second to none",
+          "body": "We've stayed at luxury hotels around the world and this ranks at the very top. The concierge team made our anniversary magical.",
+          "country": "Sweden"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "slug": "bali",
+      "name": "Bali",
+      "order": 3,
+      "country": "Indonesia",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+      "hotelsCount": 56,
+      "fromPrice": 280
+    },
+    {
+      "slug": "dubai",
+      "name": "Dubai",
+      "order": 4,
+      "country": "UAE",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+      "hotelsCount": 61,
+      "fromPrice": 510
+    },
+    {
+      "slug": "maldives",
+      "name": "Maldives",
+      "order": 2,
+      "country": "Indian Ocean",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=80",
+      "hotelsCount": 32,
+      "fromPrice": 690
+    },
+    {
+      "slug": "nepal",
+      "name": "Nepal",
+      "order": 100,
+      "country": "Nepal",
+      "image": "data:image/jpeg;base64,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",
+      "hotelsCount": 2,
+      "fromPrice": 11000
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "order": 1,
+      "country": "France",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
+      "hotelsCount": 48,
+      "fromPrice": 420
+    },
+    {
+      "slug": "santorini",
+      "name": "Santorini",
+      "order": 5,
+      "country": "Greece",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80",
+      "hotelsCount": 27,
+      "fromPrice": 460
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "order": 6,
+      "country": "Japan",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=80",
+      "hotelsCount": 44,
+      "fromPrice": 390
+    }
+  ],
+  "offers": [
+    {
+      "slug": "early-bird-advantage",
+      "title": "Early Bird Advantage",
+      "order": 3,
+      "description": "Book 60 days ahead and save on suites at all city palace hotels.",
+      "discount": "30% OFF",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
+      "code": "EARLY30",
+      "validUntil": "2026-10-15",
+      "badge": "Limited"
+    },
+    {
+      "slug": "escape-to-the-islands",
+      "title": "Escape to the Islands",
+      "order": 1,
+      "description": "Stay 4 nights, pay for 3 at any beachfront resort, plus a complimentary spa ritual.",
+      "discount": "25% OFF",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=80",
+      "code": "ISLAND25",
+      "validUntil": "2026-09-30",
+      "badge": "Seasonal"
+    },
+    {
+      "slug": "the-romance-package",
+      "title": "The Romance Package",
+      "order": 2,
+      "description": "Champagne on arrival, private candlelit dinner, and late checkout for two.",
+      "discount": "Free Dinner",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+      "code": "AMOUR",
+      "validUntil": "2026-12-31",
+      "badge": "Couples"
+    }
+  ],
+  "testimonials": [
+    {
+      "slug": "david-chen",
+      "name": "David Chen",
+      "order": 2,
+      "role": "Entrepreneur",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=80",
+      "rating": 5,
+      "quote": "I travel over 200 days a year. Luxvoy is the only platform I trust to get the details right, every single time.",
+      "location": "Singapore"
+    },
+    {
+      "slug": "elena-rossi",
+      "name": "Elena Rossi",
+      "order": 3,
+      "role": "Architect",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=160&q=80",
+      "rating": 5,
+      "quote": "The properties are architectural poetry, and the booking experience is as refined as the hotels themselves.",
+      "location": "Milan"
+    },
+    {
+      "slug": "marcus-bennett",
+      "name": "Marcus Bennett",
+      "order": 4,
+      "role": "Film Producer",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&q=80",
+      "rating": 5,
+      "quote": "From the first search to checkout, everything is effortless. Luxvoy simply understands what luxury travel should feel like.",
+      "location": "Los Angeles"
+    },
+    {
+      "slug": "sophia-laurent",
+      "name": "Sophia Laurent",
+      "order": 1,
+      "role": "Travel Editor, Vogue",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80",
+      "rating": 5,
+      "quote": "Luxvoy has an uncanny eye for the extraordinary. Every stay they've curated for me has felt deeply personal and utterly seamless.",
+      "location": "Paris"
+    }
+  ],
+  "services": [
+    {
+      "slug": "24-7-room-service",
+      "title": "24/7 Room Service",
+      "order": 8,
+      "description": "Round-the-clock in-room dining crafted by the same kitchens as our restaurants.",
+      "icon": "roomService",
+      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "All-day menus",
+        "In-villa breakfast",
+        "Midnight dining",
+        "Bespoke requests"
+      ]
+    },
+    {
+      "slug": "airport-transfers",
+      "title": "Airport Transfers",
+      "order": 5,
+      "description": "Chauffeured luxury cars and private jet coordination from door to door.",
+      "icon": "airport",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Chauffeured fleet",
+        "Private jet liaison",
+        "Meet & greet",
+        "24/7 availability"
+      ]
+    },
+    {
+      "slug": "conference-events",
+      "title": "Conference & Events",
+      "order": 6,
+      "description": "Elegant ballrooms and boardrooms with dedicated event planners and AV production.",
+      "icon": "conference",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Ballrooms & boardrooms",
+        "Dedicated planners",
+        "AV production",
+        "Bespoke catering"
+      ]
+    },
+    {
+      "slug": "fine-dining",
+      "title": "Fine Dining",
+      "order": 3,
+      "description": "Michelin-calibre restaurants, chef's tables, and curated wine cellars in every property.",
+      "icon": "restaurant",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Michelin-starred chefs",
+        "Chef's table experiences",
+        "Sommelier-led pairings",
+        "In-villa private dining"
+      ]
+    },
+    {
+      "slug": "fitness-centre",
+      "title": "Fitness Centre",
+      "order": 4,
+      "description": "State-of-the-art gyms with personal trainers, studios, and recovery suites.",
+      "icon": "gym",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Technogym equipment",
+        "Personal training",
+        "Group studios",
+        "Recovery & sauna"
+      ]
+    },
+    {
+      "slug": "free-high-speed-wifi",
+      "title": "Free High-Speed WiFi",
+      "order": 7,
+      "description": "Complimentary enterprise-grade connectivity throughout every property.",
+      "icon": "wifi",
+      "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Gigabit connectivity",
+        "Streaming ready",
+        "Secure networks",
+        "Full-property coverage"
+      ]
+    },
+    {
+      "slug": "infinity-pools",
+      "title": "Infinity Pools",
+      "order": 2,
+      "description": "Temperature-controlled infinity pools and private cabanas with dedicated poolside service.",
+      "icon": "pool",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Heated infinity pools",
+        "Private cabanas",
+        "Poolside dining",
+        "Family & adult zones"
+      ]
+    },
+    {
+      "slug": "spa-wellness",
+      "title": "Spa & Wellness",
+      "order": 1,
+      "description": "Signature treatments, thermal circuits, and holistic therapies from world-class practitioners.",
+      "icon": "spa",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80",
+      "features": [
+        "Couples treatment rooms",
+        "Thermal & hydrotherapy",
+        "Yoga & meditation",
+        "Personal wellness plans"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "slug": "adrian-vale",
+      "name": "Adrian Vale",
+      "order": 1,
+      "role": "Founder & CEO",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
+      "bio": "Former hotelier who spent two decades running palace hotels across three continents."
+    },
+    {
+      "slug": "mia-delgado",
+      "name": "Mia Delgado",
+      "order": 4,
+      "role": "Guest Relations Director",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80",
+      "bio": "Leads our 24/7 concierge team and knows the world's best-kept travel secrets."
+    },
+    {
+      "slug": "priya-nair",
+      "name": "Priya Nair",
+      "order": 2,
+      "role": "Head of Curation",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "bio": "Travels 250 days a year personally vetting every property before it joins the collection."
+    },
+    {
+      "slug": "thomas-lindqvist",
+      "name": "Thomas Lindqvist",
+      "order": 3,
+      "role": "Chief Experience Officer",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80",
+      "bio": "Obsessed with the details that turn a good stay into an unforgettable one."
+    }
+  ],
+  "gallery": [
+    {
+      "slug": "alpine-escape",
+      "title": "Alpine Escape",
+      "order": 12,
+      "src": "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1200&q=80",
+      "category": "Resorts",
+      "span": "wide"
+    },
+    {
+      "slug": "caldera-views",
+      "title": "Caldera Views",
+      "order": 7,
+      "src": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1200&q=80",
+      "category": "Resorts",
+      "span": "wide"
+    },
+    {
+      "slug": "chef-s-table",
+      "title": "Chef's Table",
+      "order": 4,
+      "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "category": "Dining",
+      "span": "normal"
+    },
+    {
+      "slug": "fitness-studio",
+      "title": "Fitness Studio",
+      "order": 11,
+      "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "category": "Spa",
+      "span": "normal"
+    },
+    {
+      "slug": "grand-lobby",
+      "title": "Grand Lobby",
+      "order": 2,
+      "src": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80",
+      "category": "Interiors",
+      "span": "wide"
+    },
+    {
+      "slug": "infinity-edge",
+      "title": "Infinity Edge",
+      "order": 5,
+      "src": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+      "category": "Pools",
+      "span": "tall"
+    },
+    {
+      "slug": "jungle-villa",
+      "title": "Jungle Villa",
+      "order": 9,
+      "src": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+      "category": "Rooms",
+      "span": "normal"
+    },
+    {
+      "slug": "overwater-villas",
+      "title": "Overwater Villas",
+      "order": 1,
+      "src": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=80",
+      "category": "Resorts",
+      "span": "tall"
+    },
+    {
+      "slug": "panorama-suite",
+      "title": "Panorama Suite",
+      "order": 6,
+      "src": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+      "category": "Rooms",
+      "span": "normal"
+    },
+    {
+      "slug": "serenity-spa",
+      "title": "Serenity Spa",
+      "order": 3,
+      "src": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
+      "category": "Spa",
+      "span": "normal"
+    },
+    {
+      "slug": "sunset-terrace",
+      "title": "Sunset Terrace",
+      "order": 10,
+      "src": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80",
+      "category": "Interiors",
+      "span": "tall"
+    },
+    {
+      "slug": "the-cellar-bar",
+      "title": "The Cellar Bar",
+      "order": 8,
+      "src": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1200&q=80",
+      "category": "Dining",
+      "span": "normal"
+    }
+  ],
+  "faqs": [
+    {
+      "slug": "are-special-requests-guaranteed",
+      "question": "Are special requests guaranteed?",
+      "order": 8,
+      "category": "Services",
+      "answer": "We pass every request — dietary needs, room preferences, celebrations — directly to the property and follow up personally. While not contractually guaranteed, our hotels go to remarkable lengths to accommodate."
+    },
+    {
+      "slug": "can-i-book-multiple-rooms-at-once",
+      "question": "Can I book multiple rooms at once?",
+      "order": 2,
+      "category": "Booking",
+      "answer": "Yes. During booking you can select the number of rooms and guests. For groups of five rooms or more, our concierge team can arrange bespoke rates and connecting accommodation."
+    },
+    {
+      "slug": "can-i-modify-my-reservation",
+      "question": "Can I modify my reservation?",
+      "order": 6,
+      "category": "Cancellation",
+      "answer": "Absolutely. You can adjust dates, room type, or guest details from your account or by contacting your concierge, subject to availability and the property's policy."
+    },
+    {
+      "slug": "do-you-arrange-airport-transfers",
+      "question": "Do you arrange airport transfers?",
+      "order": 7,
+      "category": "Services",
+      "answer": "Yes. Chauffeured transfers and private jet coordination can be added to any booking. Simply request it during checkout or through your concierge."
+    },
+    {
+      "slug": "how-do-i-make-a-reservation",
+      "question": "How do I make a reservation?",
+      "order": 1,
+      "category": "Booking",
+      "answer": "Search your destination and dates, choose from our curated collection, and complete your booking in a few taps. You'll receive instant confirmation by email along with a dedicated concierge contact for your stay."
+    },
+    {
+      "slug": "what-is-your-cancellation-policy",
+      "question": "What is your cancellation policy?",
+      "order": 5,
+      "category": "Cancellation",
+      "answer": "Flexible rates can be cancelled free of charge up to 48 hours before check-in. Each property lists its specific policy on the booking page before you confirm."
+    },
+    {
+      "slug": "what-payment-methods-do-you-accept",
+      "question": "What payment methods do you accept?",
+      "order": 3,
+      "category": "Payment",
+      "answer": "We accept all major credit and debit cards, Apple Pay, Google Pay, and bank transfer for select reservations. Your payment details are encrypted and never stored on our servers."
+    },
+    {
+      "slug": "when-am-i-charged-for-my-stay",
+      "question": "When am I charged for my stay?",
+      "order": 4,
+      "category": "Payment",
+      "answer": "For most bookings a small deposit secures your reservation, with the balance settled at the property. Non-refundable rates are charged in full at the time of booking and clearly labelled."
+    }
+  ],
+  "about": {
+    "stats": [
+      {
+        "value": 320,
+        "suffix": "+",
+        "label": "Luxury Properties"
+      },
+      {
+        "value": 68,
+        "label": "Countries"
+      },
+      {
+        "value": 250,
+        "suffix": "K",
+        "label": "Happy Guests"
+      },
+      {
+        "value": 4.9,
+        "suffix": "/5",
+        "label": "Average Rating"
+      },
+      {
+        "value": 123,
+        "suffix": "Ho",
+        "label": "Good hotel"
+      }
+    ],
+    "awards": [
+      {
+        "year": "2026",
+        "title": "World's Best Luxury Travel Platform",
+        "org": "Condé Nast Traveller"
+      },
+      {
+        "year": "2025",
+        "title": "Excellence in Hospitality",
+        "org": "Travel + Leisure"
+      },
+      {
+        "year": "2025",
+        "title": "Best Boutique Collection",
+        "org": "Forbes Travel Guide"
+      },
+      {
+        "year": "2024",
+        "title": "Innovation in Guest Experience",
+        "org": "World Travel Awards"
+      }
+    ]
+  }
+}

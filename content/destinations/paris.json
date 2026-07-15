@@ -1,0 +1,8 @@
+{
+  "name": "Paris",
+  "order": 1,
+  "country": "France",
+  "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80",
+  "hotelsCount": 48,
+  "fromPrice": 420
+}

@@ -1,0 +1,18 @@
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { ScrollToTop } from "@/components/ui/ScrollToTop";
+
+export default function SiteLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <div className="flex min-h-full flex-col">
+      <Navbar />
+      <main className="flex-1">{children}</main>
+      <Footer />
+      <ScrollToTop />
+    </div>
+  );
+}

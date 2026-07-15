@@ -1,0 +1,10 @@
+{
+  "title": "Escape to the Islands",
+  "order": 1,
+  "description": "Stay 4 nights, pay for 3 at any beachfront resort, plus a complimentary spa ritual.",
+  "discount": "25% OFF",
+  "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=80",
+  "code": "ISLAND25",
+  "validUntil": "2026-09-30",
+  "badge": "Seasonal"
+}

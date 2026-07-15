@@ -1,0 +1,8 @@
+{
+  "name": "Tokyo",
+  "order": 6,
+  "country": "Japan",
+  "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1600&q=80",
+  "hotelsCount": 44,
+  "fromPrice": 390
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Infinity Pools",
+  "order": 2,
+  "description": "Temperature-controlled infinity pools and private cabanas with dedicated poolside service.",
+  "icon": "pool",
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+  "features": [
+    "Heated infinity pools",
+    "Private cabanas",
+    "Poolside dining",
+    "Family & adult zones"
+  ]
+}
