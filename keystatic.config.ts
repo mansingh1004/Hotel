@@ -59,7 +59,15 @@ const ROOM_TYPE_OPTIONS = [
  * ------------------------------------------------------------------ */
 
 export default config({
-  storage: { kind: "local" },
+  // Local mode writes to the filesystem — great for `npm run dev`, but it
+  // CANNOT work on Vercel (read-only, ephemeral serverless FS), which is why
+  // the deployed dashboard shows no data and saving returns 500. In production
+  // we use GitHub storage: reads/writes go through the GitHub API, and each
+  // edit commits to the repo (triggering a Vercel redeploy).
+  storage:
+    process.env.NODE_ENV === "development"
+      ? { kind: "local" }
+      : { kind: "github", repo: "mansingh1004/Hotel" },
   ui: {
     brand: { name: "Luxvoy CMS", mark: BrandMark },
     navigation: {
